@@ -4,68 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kabaso's Profile</title>
-    <link rel="stylesheet" href="profile-style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="page-wrapper">
 
-    <header>
-        <h1>Kabaso</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#hobbies">Hobbies</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+        <header>
+            <h1>Kabaso's Portfolio</h1>
+            <span class="badge">Available for Projects</span>
+            
+            <nav> 
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <article id="about">
-    
-            <h2>About Me</h2>
-            <p>I am a Computer Science student currently in my third year, with a growing interest in programming and technology. I enjoy exploring different areas of computing including web development, game design and communication concepts.</p>
-            <p>I enjoy connecting theory with practical coding projects and I often experiment with Java, XAMPP, and some front-end development frameworks.</p>
+        <main>
+            <article id="about">
+        
+                <h2>About Me</h2>
+                <p>I am a Computer Science student currently in my third year, with a growing interest in programming and technology. I enjoy exploring different areas of computing including web development, game design and communication concepts.</p>
+                <p>I enjoy connecting theory with practical coding projects and I often experiment with Java, XAMPP, and some front-end development frameworks.</p>
 
-            <h3 id="hobbies">My Hobbies & Interests</h3>
-            <ul class="skills">
-                <li>Watching films and documentaries</li>
-                <li>Reading (novels and general literature)</li>
-                <li>Coding and Programming</li>
-                <li>Journaling and reflective writing</li>
-                <li>Outdoor walks and recreational activities</li>
-            </ul>
+                <h3 id="hobbies">My Hobbies & Interests</h3>
+                <ul class="skills-list">
+                    <li>Watching films and documentaries</li>
+                    <li>Reading (novels and general literature)</li>
+                    <li>Coding and Programming</li>
+                    <li>Journaling and reflective writing</li>
+                    <li>Outdoor walks and recreational activities</li>
+                </ul>
 
-            <h3>Top Academic Courses</h3>
-            <ol>
-                <li>Object-Oriented Programming with Java</li>
-                <li>Theory of Automata</li>
-                <li>Web Programming</li>
-            </ol>
+                <h3>Top Academic Courses</h3>
+                <ol>
+                    <li>Object-Oriented Programming with Java</li>
+                    <li>Theory of Automata</li>
+                    <li>Web Programming</li>
+                </ol>
 
-            <figure class="profile-image">
-                <img src="Kabaso.jpeg" alt="Photo of Kabaso">
-                <figcaption>Kabaso — Year 3 CS Student</figcaption>
-            </figure>
-        </article>
-    </main>
+                <figure class="profile-figure">
+                    <img src="Kabaso.jpeg" alt="Photo of Kabaso">
+                    <figcaption>Kabaso — Year 3 CS Student</figcaption>
+                </figure>
+            </article>
 
-    <aside id="contact">
-        <h2>Contact & Links</h2>
-        <p>
-            <a href="https://github.com/kabasochisonga">GitHub</a><br>
-            <a href="https://www.linkedin.com/in/kabaso-chisonga-120521349/">LinkedIn</a><br>
-            <a href="mailto:kabaso@cbu.ac.zm">Email Me</a>
-        </p>
-        <br>
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <article class="card">
+                        <h3>Meal Planner Website</h3>
+                        <p>A web application designed to help users plan meals efficiently.</p>
+                        <a href="#">View Project</a>
+                    </article>
 
-        <dl>
-            <dt>Department: </dt>
-            <dd>School of Information, Communication and Technology</dd>
-            <dt>Year:</dt>
-            <dd>3rd Year</dd>
-            <dt>Programme:</dt>
-            <dd> Computer Science</dd>
-        </dl>
-    </aside>
+                    <article class="card">
+                        <h3>Simple Game Design</h3>
+                        <p>An interactive game built to explore basic programming logic.</p>
+                        <a href="#">View Project</a>
+                    </article>
+
+                    <article class="card">
+                        <h3>AI Concept Project</h3>
+                        <p>A conceptual AI solution aimed at solving real-world problems.</p>
+                        <a href="#">View Project</a>
+                    </article>
+                </div>
+            </section>
+            <aside id="contact">
+            <h2>Contact & Links</h2>
+            <p>
+                <a href="https://github.com/kabasochisonga">GitHub</a><br>
+                <a href="https://www.linkedin.com/in/kabaso-chisonga-120521349/">LinkedIn</a><br>
+                <a href="mailto:kabaso@cbu.ac.zm">Email Me</a>
+            </p>
+
+            <dl>
+                <dt>Department: </dt>
+                <dd>School of Information, Communication and Technology</dd>
+                <dt>Year:</dt>
+                <dd>3rd Year</dd>
+                <dt>Programme:</dt>
+                <dd> Computer Science</dd>
+            </dl>
+        </aside>
+        </main>
+
+    </div>
 
     <footer>
         <p>Contact: <a href="mailto:kabaso@cbu.ac.zm">kabaso@cbu.ac.zm</a></p>
